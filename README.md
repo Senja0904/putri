@@ -1,1 +1,115 @@
-# putri
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata diri PUTRI AZ-ZAHRA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="fotome.jpg" alt="Foto Profil Putri Az-zahra" class="profile-image">
+            <h1 class="name">PUTRI AZ-ZAHRA</h1>
+            <p class="profession">Saya adalah pribadi yang suka dengan hal baru, pekerja keras dan akan memberikan yang terbaik untuk pekerjaan saya.</p>
+
+            <div class="skills">
+                <h2>KEAHLIAN</h2>
+                <ul>
+                    <li>Merancang</li>
+                    <li>Mampu bekerja</li>
+                    <li>Adaptabilitas</li>
+                    <li>Manajemen Waktu</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <!DOCTYPE html>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 300px;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #f5f5f5;
+      font-size: 18px;
+    }
+    .contact-item:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Kontak</h2>
+  <div class="contact-container">
+    <a href="https://instagram.com/putriiazzhr__" class="contact-item" target="_blank">
+      <i class="fab fa-instagram"></i> @putriiazzhr__
+    </a>
+    <a href="https://wa.me/6289528937028" class="contact-item" target="_blank">
+      <i class="fab fa-whatsapp"></i> +62 895-2893-7082
+    </a>
+    <a href="mailto:putriazzahraputri960@gmail.com" class="contact-item">
+      <i class="fas fa-envelope"></i> putriazzahraputri960@gmail.com
+    </a>
+  </div>
+
+</body>
+</html>
+
+    </div>
+        </div>
+
+        <div class="right-section">
+            <div class="personal-info">
+                <h2>DATA PRIBADI</h2>
+                <ul>
+                    <li><span class="label">Nama Lengkap:</span> Putri Az-zahra</li>
+                    <li><span class="label">Tempat, Tanggal Lahir:</span> Desa Blang , 28 MEI 2005</li>
+                    <li><span class="label">Alamat:</span> Desa Blang Krueng Seumideun jln: tijue-caleu</li>
+                    <li><span class="label">Jenis Kelamin:</span> Perempuan</li>
+                    <li><span class="label">Agama:</span> Islam</li>
+                    <li><span class="label">Kewarganegaraan:</span> indonesia-Aceh Darussalam</li>
+                    <li><span class="label">Status:</span> Mahasiswa</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h2>PENDIDIKAN</h2>
+                <ul>
+                    <li>MIN 41 Pidie <span class="year">(2010-2016)</span></li>
+                    <li>MTSN 5 Pidie<span class="year">(2016-2019)</span></li>
+                    <li>SMKN 1 Sigli <span class="year">(2019-2022)</span></li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h2>PENGALAMAN</h2>
+                <ul>
+                    <li> pernah bekerja di taylor (Magang) <span class="year">(april(2023) - mei (2023))</span>
+                        <ul>
+                            <li>mengerjakan pekerjaan dengan baik dan teliti, menyelesaikan pekrtjaan dengan cepat.</li>
+                        </ul>
+                    </li>
+                    <li>membuka online shop (reseler) <span class="year">(januari (2020-(2024)))</span>
+                        <ul>
+                            <li>mempromosikan barang setiap hari.</li>
+                            <li>sampai mengantar barang ke pembeli setiap hari minggu.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
