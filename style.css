@@ -1,0 +1,170 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #efeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #f4bebc;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 20px;
+}
+
+.left-section {
+    background-color: #da6c60; /* Warna biru muda seperti di gambar */
+    color: #333;
+    padding: 30px;
+    width: 35%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.profession {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.skills, .contact {
+    margin-top: 30px;
+}
+
+.skills h2, .contact h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ea8780; /* Warna garis bawah */
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.skills ul, .contact p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.95em;
+    text-align: center;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+
+.contact p {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.right-section {
+    padding: 30px;
+    width: 65%;
+    box-sizing: border-box;
+    color: #4c0303;
+}
+
+.personal-info h2, .education h2, .experience h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ea8780; /* Warna garis bawah */
+    padding-bottom: 5px;
+}
+
+.personal-info ul, .education ul, .experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.personal-info li {
+    margin-bottom: 8px;
+}
+
+.personal-info .label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+.education .year {
+    color: #676464;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.experience li {
+    margin-bottom: 15px;
+}
+
+.experience .year {
+    color: #676464;
+    font-style: italic;
+    display: block;
+    margin-top: 5px;
+}
+
+.experience ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    .name {
+        font-size: 1.3em;
+    }
+
+    .skills h2, .contact h2, .personal-info h2, .education h2, .experience h2 {
+        font-size: 1.1em; }
+}
